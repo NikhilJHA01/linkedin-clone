@@ -1,0 +1,39 @@
+.widgets {
+  flex: 0.2;
+  color: #4f4f4f;
+}
+.widgets__title {
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #191919;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.widgets__list > ul {
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.widgets__list--news {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.widgets__list--news:hover {
+  color: black;
+}
+.widgets__list--news > li {
+  font-size: 13px;
+  font-weight: 600;
+}
+.widgets__list--viewers {
+  font-size: 12px;
+
+  padding: 2px 0;
+}

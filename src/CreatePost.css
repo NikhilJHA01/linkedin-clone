@@ -1,0 +1,56 @@
+.createpost {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.createpost__search {
+  display: flex;
+  padding: 0 10px;
+}
+.createpost__search > form {
+  width: 100%;
+}
+.createpost__search form > input {
+  border: 1px solid #a4a4a4;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-left: 5px;
+}
+.createpost__attachments {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
+}
+.createpost__attachment {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.createpost__attachment:hover {
+  background-color: #ebebeb;
+}
+.createpost__attachment > .photo {
+  color: #378fe9;
+  margin-right: 2px;
+}
+.createpost__attachment > .video {
+  color: #5f9b41;
+  margin-right: 2px;
+}
+.createpost__attachment > .event {
+  color: #c37d17;
+  margin-right: 2px;
+}
+.createpost__attachment > .article {
+  color: #e16744;
+  margin-right: 2px;
+}
