@@ -1,15 +1,15 @@
 .app {
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  align-items: center;
   height: 100vh;
 }
 .app__body {
-  background-color: #dedede;
+  /* background-color: #dedede; */
+  max-width: 1440px;
   display: flex;
   padding: 20px;
   z-index: 10;
   height: auto;
-  /* height: 92vh; */
   justify-content: space-around;
 }

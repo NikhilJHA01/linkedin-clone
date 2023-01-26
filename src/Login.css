@@ -13,6 +13,7 @@
   padding: 10px;
   height: 100vh;
   background-color: #dedede;
+  width: 100%;
 }
 .login__header {
   display: flex;

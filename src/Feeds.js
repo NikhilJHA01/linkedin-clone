@@ -4,7 +4,6 @@ import CreatePost from "./CreatePost";
 import { useState, useEffect } from "react";
 import { db } from "./firebase";
 import firebase from "firebase/compat/app";
-import userSlice from "./features/userSlice";
 import FlipMove from "react-flip-move";
 
 const Feeds = ({ user }) => {

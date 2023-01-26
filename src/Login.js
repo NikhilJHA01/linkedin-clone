@@ -116,7 +116,7 @@ const Login = () => {
                 <input
                   type="text"
                   value={fullname}
-                  placeholder="Full Name"
+                  placeholder="Full Name ( Required )"
                   onChange={(e) => setFullname(e.target.value)}
                 />
               )}
@@ -124,7 +124,7 @@ const Login = () => {
                 <input
                   type="text"
                   value={profilPic}
-                  placeholder="Profile pic"
+                  placeholder="Profile pic ( Optional )"
                   onChange={(e) => setProfilePic(e.target.value)}
                 />
               )}
